@@ -19,7 +19,7 @@ Overview of work product:
 - Read csv into a Pandas dataframe
 - Explored the data (data types, descriptive statistics, distributions)
 - Filled in NAs with median/mean
-- Addressed skew in data: Many of the variables have long right tails (extreme upper outliers). I capped these columns at a 99.9% percentile ceiling to address outliers without removing them. 
+- Addressed skew in data. Many of the variables have long right tails (extreme upper outliers). I capped these columns at a 99.9% percentile ceiling to address outliers without removing them. 
 - Bucketed continuous variables ('RevolvingUtilizationOfUnsecuredLines','DebtRatio') into discrete bins, one for each 10% decile. Bucket ranges are variable but sizes are approximately equal (same number of records in each). 
 - Turned categorical variables ("NumberOfDependents", "age") into additional columns of dummy variables. 
 - Chose features to include in logistic regression. Did not include age bins because they decreased the model performance.
