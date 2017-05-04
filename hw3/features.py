@@ -1,11 +1,13 @@
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import normalize
 from config import *
 
 def feature_eng(df):
     df = fill_missing(df)
     df = cap_extreme(df)
     df = discretize(df)
+    df = normalize(df)
     df = make_dummies(df)
     return df
 
@@ -55,7 +57,20 @@ def discretize(df):
     Function for discretizing continuous variables into Q equally-sized buckets     
     '''
     for c in BUCKETING_COLS:
-        df['bins_' + c] = pd.qcut(df[c], q=Q)
+        # special bucketing for age 
+        if c == 'age':
+            agebins = [0] + list(range(20,80,5)) + [110]
+            df['bins_age'] = pd.cut(df['age'],bins=agebins, include_lowest=True)
+        else:
+            df['bins_' + c] = pd.qcut(df[c], q=Q)
+    return df
+
+def normalize(df):
+    '''
+    Function for normalizing dataframe
+    '''
+    if NORMALIZE:
+        normalize(df, axis=1)
     return df
 
 def make_dummies(df):
@@ -63,6 +78,6 @@ def make_dummies(df):
     Function to make dummy features from categorical variables and concatenate with df
     '''
     for c in CATEGORICAL:
-        dummies = pd.pd.get_dummies(df[i], prefix=i)
+        dummies = pd.get_dummies(df[c], prefix=c)
         df = pd.concat([df, dummies], axis=1)
     return df
