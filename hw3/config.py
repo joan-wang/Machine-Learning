@@ -6,6 +6,8 @@ from sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 
+# indicator for whether pipeline.py is being run in terminal (as opposed to jupyter)
+TERMINAL = False
 
 # title of index column to use when importing csv
 INDEX_COL = 'PersonID'
@@ -13,11 +15,7 @@ INDEX_COL = 'PersonID'
 # name of output variable to be predicted (values should be 0/1)
 OUTCOME_VAR = 'SeriousDlqin2yrs'
 
-# preliminary list of features to use, to be inserted into df.ix[:, FEATURE_COLS[0]]
-# can input range of column indices or list of columns
-# if using list of columns, use a list of lists, e.g. [[feat1, feat2]]
-# if using column indices, use format [:2]
-# FIX THIS!! Currently hard coded 2: i.e. using all features
+# list of features to use
 FEATURE_COLS = []
 
 # separator character for csv
@@ -40,7 +38,7 @@ TO_BOOL = ['SeriousDlqin2yrs']
 EXTREME_COLS = ['RevolvingUtilizationOfUnsecuredLines','NumberOfTime30-59DaysPastDueNotWorse','DebtRatio','MonthlyIncome','NumberOfOpenCreditLinesAndLoans','NumberOfTimes90DaysLate','NumberRealEstateLoansOrLines','NumberOfTime60-89DaysPastDueNotWorse','NumberOfDependents']
 
 # percentile value at which to cap EXTREME_COLS
-CAP = 0.999
+CAP = 0.99
 
 # continuous variables that need discretizing; not necessary for credit data
 BUCKETING_COLS = []
@@ -114,3 +112,4 @@ TEST_GRID = {
 
 # which grid size to use
 WHICH_GRID = TEST_GRID
+
