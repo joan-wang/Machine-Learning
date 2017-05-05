@@ -1,0 +1,384 @@
+,model_type,clf,parameters,auc-roc,precision_5,accuracy_5,recall_5,precision_10,accuracy_10,recall_10,precision_20,accuracy_20,recall_20,runtime,y_pred_probs
+0,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 10, 'max_depth': 5, 'min_samples_split': 2, 'max_features': 'sqrt'}",0.846318854714142,0.48,0.9299,0.3524229074889868,0.3566666666666667,0.9032333333333333,0.5237395986294665,0.2355,0.8261,0.6916299559471366,0.7333261966705322,"[ 0.02352953  0.09786276  0.03048692 ...,  0.02456541  0.09786276
+  0.0263898 ]"
+1,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 100, 'max_depth': 5, 'min_samples_split': 2, 'max_features': 'sqrt'}",0.8493031156808868,0.478,0.9297,0.3509544787077827,0.3616666666666667,0.9042333333333333,0.531081742535487,0.2365,0.8265,0.6945668135095447,5.054123401641846,"[ 0.02040075  0.08226899  0.0342433  ...,  0.02149278  0.08146011
+  0.01849136]"
+2,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 10, 'max_depth': 5, 'min_samples_split': 10, 'max_features': 'sqrt'}",0.8453882072690788,0.47733333333333333,0.9296333333333333,0.3504650024473813,0.3556666666666667,0.9030333333333334,0.5222711698482624,0.23366666666666666,0.8253666666666667,0.6862457170827215,0.8411350250244141,"[ 0.02050991  0.08483128  0.03498695 ...,  0.02156007  0.08824812
+  0.01944775]"
+3,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 100, 'max_depth': 5, 'min_samples_split': 10, 'max_features': 'sqrt'}",0.8492889165448141,0.47533333333333333,0.9294333333333333,0.3489965736661772,0.3596666666666667,0.9038333333333334,0.5281448849730788,0.2375,0.8269,0.697503671071953,4.827634334564209,"[ 0.01955899  0.08208462  0.0339072  ...,  0.02069356  0.07958463
+  0.0182914 ]"
+4,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 10, 'max_depth': 5, 'min_samples_split': 2, 'max_features': 'log2'}",0.8441394273924376,0.48133333333333334,0.9300333333333334,0.3534018600097895,0.357,0.9033,0.5242290748898678,0.23033333333333333,0.8240333333333333,0.6764561918746941,0.7711896896362305,"[ 0.02288355  0.06349885  0.03020087 ...,  0.02269773  0.05318516
+  0.01898457]"
+5,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 100, 'max_depth': 5, 'min_samples_split': 2, 'max_features': 'log2'}",0.8486971662358691,0.476,0.9295,0.34948604992657856,0.3586666666666667,0.9036333333333333,0.5266764561918746,0.23666666666666666,0.8265666666666667,0.6950562897699462,5.27698826789856,"[ 0.02130786  0.0809391   0.03168037 ...,  0.02012757  0.08050804
+  0.01840462]"
+6,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 10, 'max_depth': 5, 'min_samples_split': 10, 'max_features': 'log2'}",0.8438952145077143,0.482,0.9301,0.35389133627019087,0.356,0.9031,0.5227606461086637,0.235,0.8259,0.6901615271659325,0.7605540752410889,"[ 0.01898689  0.10062066  0.03990604 ...,  0.01914559  0.08996475
+  0.02045282]"
+7,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 100, 'max_depth': 5, 'min_samples_split': 10, 'max_features': 'log2'}",0.8487971904829512,0.4766666666666667,0.9295666666666667,0.3499755261869799,0.3576666666666667,0.9034333333333333,0.5252080274106706,0.2355,0.8261,0.6916299559471366,5.048340082168579,"[ 0.02190984  0.06968396  0.03522646 ...,  0.02212048  0.07146661
+  0.01914398]"
+8,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 10, 'max_depth': 50, 'min_samples_split': 2, 'max_features': 'sqrt'}",0.7772909802693112,0.448,0.9267,0.328928046989721,0.3863333333333333,0.9091666666666667,0.5673029858051885,0.25583333333333336,0.8342333333333334,0.7513460597161038,1.58329439163208,"[ 0.1  0.2  0.  ...,  0.   0.   0. ]"
+9,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 100, 'max_depth': 50, 'min_samples_split': 2, 'max_features': 'sqrt'}",0.8324283266216591,0.4533333333333333,0.9272333333333334,0.33284385707293196,0.343,0.9005,0.5036710719530103,0.232,0.8247,0.6813509544787077,13.462299823760986,"[ 0.01  0.04  0.02 ...,  0.02  0.05  0.  ]"
+10,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 10, 'max_depth': 50, 'min_samples_split': 10, 'max_features': 'sqrt'}",0.8102701020592231,0.43933333333333335,0.9258333333333333,0.3225648556045032,0.329,0.8977,0.4831130690161527,0.22366666666666668,0.8213666666666667,0.6568771414586393,1.7843260765075684,"[ 0.          0.11111111  0.04285714 ...,  0.1         0.01818182  0.        ]"
+11,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 100, 'max_depth': 50, 'min_samples_split': 10, 'max_features': 'sqrt'}",0.8416509456318231,0.4706666666666667,0.9289666666666667,0.3455702398433676,0.3516666666666667,0.9022333333333333,0.5163974547234459,0.235,0.8259,0.6901615271659325,14.124032735824585,"[ 0.02763889  0.04689017  0.02434722 ...,  0.00309524  0.07430471  0.        ]"
+12,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 10, 'max_depth': 50, 'min_samples_split': 2, 'max_features': 'log2'}",0.7764849910842206,0.44533333333333336,0.9264333333333333,0.3269701419481155,0.369,0.9057,0.5418502202643172,0.25616666666666665,0.8343666666666667,0.7523250122369065,1.5962262153625488,"[ 0.   0.2  0.  ...,  0.   0.2  0. ]"
+13,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 100, 'max_depth': 50, 'min_samples_split': 2, 'max_features': 'log2'}",0.8329152116710385,0.45266666666666666,0.9271666666666667,0.3323543808125306,0.341,0.9001,0.5007342143906021,0.23083333333333333,0.8242333333333334,0.6779246206558982,15.085600852966309,"[ 0.02  0.07  0.03 ...,  0.01  0.07  0.  ]"
+14,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 10, 'max_depth': 50, 'min_samples_split': 10, 'max_features': 'log2'}",0.8122479139044226,0.44466666666666665,0.9263666666666667,0.32648066568771417,0.33566666666666667,0.8990333333333334,0.49290259422418015,0.22016666666666668,0.8199666666666666,0.6465981399902104,1.9030215740203857,"[ 0.          0.1         0.         ...,  0.01111111  0.085       0.        ]"
+15,RF,"RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=50, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            n_estimators=100, n_jobs=-1, oob_score=False,
+            random_state=None, verbose=0, warm_start=False)","{'n_estimators': 100, 'max_depth': 50, 'min_samples_split': 10, 'max_features': 'log2'}",0.840972503556831,0.476,0.9295,0.34948604992657856,0.34833333333333333,0.9015666666666666,0.5115026921194322,0.23616666666666666,0.8263666666666667,0.693587860988742,16.04801917076111,"[ 0.01376923  0.04200811  0.0055     ...,  0.01928283  0.07154493
+  0.0022619 ]"
+16,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 2, 'criterion': 'gini', 'max_features': 'sqrt'}",0.8063440496892024,0.43466666666666665,0.9253666666666667,0.3191385217816936,0.3263333333333333,0.8971666666666667,0.47919725893294174,0.2225,0.8209,0.6534508076358296,0.8396265506744385,"[ 0.00308887  0.09014322  0.07798785 ...,  0.01919339  0.05452865
+  0.00308887]"
+17,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 5, 'criterion': 'gini', 'max_features': 'sqrt'}",0.819104932333413,0.44533333333333336,0.9264333333333333,0.3269701419481155,0.33666666666666667,0.8992333333333333,0.4943710230053842,0.226,0.8223,0.6637298091042585,0.33727502822875977,"[ 0.01442841  0.09298441  0.01520288 ...,  0.0221519   0.08221477
+  0.00681431]"
+18,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 10, 'criterion': 'gini', 'max_features': 'sqrt'}",0.8046970812161346,0.444,0.9263,0.32599118942731276,0.33066666666666666,0.8980333333333334,0.4855604503181596,0.22666666666666666,0.8225666666666667,0.6656877141458639,0.3267812728881836,"[ 0.01091618  0.06036745  0.04044118 ...,  0.01121831  0.06036745
+  0.02925497]"
+19,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 2, 'criterion': 'gini', 'max_features': 'log2'}",0.8005892588945636,0.424,0.9243,0.31130690161527164,0.33266666666666667,0.8984333333333333,0.4884973078805678,0.22516666666666665,0.8219666666666666,0.6612824278022515,0.5962376594543457,"[ 0.01073663  0.0736465   0.02868617 ...,  0.01319008  0.05910987
+  0.01319008]"
+20,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 5, 'criterion': 'gini', 'max_features': 'log2'}",0.8166110930689291,0.43066666666666664,0.9249666666666667,0.31620166421928536,0.3433333333333333,0.9005666666666666,0.5041605482134116,0.22883333333333333,0.8234333333333334,0.6720509055310817,0.6272830963134766,"[ 0.01476547  0.06946688  0.02515471 ...,  0.02515471  0.05943359
+  0.00599121]"
+21,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 10, 'criterion': 'gini', 'max_features': 'log2'}",0.8086159464772058,0.4613333333333333,0.9280333333333334,0.3387175721977484,0.33266666666666667,0.8984333333333333,0.4884973078805678,0.22466666666666665,0.8217666666666666,0.6598139990210474,0.5512847900390625,"[ 0.00662252  0.10448485  0.02886881 ...,  0.01813092  0.10448485
+  0.00925314]"
+22,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 2, 'criterion': 'gini', 'max_features': 'sqrt'}",0.5621075639358122,0.31933333333333336,0.9138333333333334,0.2344591287322565,0.15966666666666668,0.8638333333333333,0.2344591287322565,0.12683333333333333,0.7826333333333333,0.372491434165443,0.6852455139160156,"[ 1.          0.05764967  0.         ...,  0.          0.          0.        ]"
+23,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 5, 'criterion': 'gini', 'max_features': 'sqrt'}",0.6334020914679631,0.35333333333333333,0.9172333333333333,0.25942241801272636,0.24866666666666667,0.8816333333333334,0.36514929025942244,0.1625,0.7969,0.47723935389133626,0.4221060276031494,"[ 0.          0.09090909  0.         ...,  0.          0.06666667  0.        ]"
+24,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 10, 'criterion': 'gini', 'max_features': 'sqrt'}",0.680455463464266,0.336,0.9155,0.24669603524229075,0.27566666666666667,0.8870333333333333,0.40479686735193343,0.18033333333333335,0.8040333333333334,0.5296133137542829,0.5515494346618652,"[ 0.          0.          0.01385042 ...,  0.          0.03061224  0.        ]"
+25,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 2, 'criterion': 'gini', 'max_features': 'log2'}",0.601798394993388,0.29533333333333334,0.9114333333333333,0.21683798335780716,0.22566666666666665,0.8770333333333333,0.33137542829172784,0.13716666666666666,0.7867666666666666,0.40283896231032795,0.42976999282836914,"[ 0.01724138  0.04477612  0.01538462 ...,  0.          0.2         0.        ]"
+26,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 5, 'criterion': 'gini', 'max_features': 'log2'}",0.6294805474549572,0.29,0.9109,0.21292217327459617,0.22633333333333333,0.8771666666666667,0.3323543808125306,0.15466666666666667,0.7937666666666666,0.45423396965247187,0.35268354415893555,"[ 1.          1.          0.09259259 ...,  0.02688172  0.          0.        ]"
+27,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 10, 'criterion': 'gini', 'max_features': 'log2'}",0.6690026346488229,0.3313333333333333,0.9150333333333334,0.24326970141948115,0.27,0.8859,0.3964757709251101,0.18216666666666667,0.8047666666666666,0.534997552618698,0.5146872997283936,"[ 0.00832639  0.2         0.         ...,  0.05514706  0.          0.        ]"
+28,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 2, 'criterion': 'gini', 'max_features': 'sqrt'}",0.6007668741543876,0.35,0.9169,0.25697503671071953,0.483,0.9285,0.7092511013215859,0.3405,0.8681,1.0,0.46636414527893066,"[ 0.  0.  0. ...,  0.  0.  0.]"
+29,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 5, 'criterion': 'gini', 'max_features': 'sqrt'}",0.631284389243946,0.31466666666666665,0.9133666666666667,0.2310327949094469,0.23433333333333334,0.8787666666666667,0.3441018110621635,0.3405,0.8681,1.0,0.49695920944213867,"[ 0.          0.33333333  0.         ...,  0.          0.          0.        ]"
+30,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 10, 'criterion': 'gini', 'max_features': 'sqrt'}",0.664181406411647,0.354,0.9173,0.2599118942731278,0.253,0.8825,0.37151248164464024,0.3405,0.8681,1.0,0.5234987735748291,"[ 0.  0.  0. ...,  0.  0.  0.]"
+31,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 2, 'criterion': 'gini', 'max_features': 'log2'}",0.6004602708610389,0.35133333333333333,0.9170333333333334,0.2579539892315223,0.4683333333333333,0.9255666666666666,0.6877141458639257,0.3405,0.8681,1.0,0.62107253074646,"[ 0.  0.  0. ...,  0.  0.  0.]"
+32,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 5, 'criterion': 'gini', 'max_features': 'log2'}",0.6397340219931837,0.32266666666666666,0.9141666666666667,0.23690651003426333,0.24466666666666667,0.8808333333333334,0.35927557513460595,0.3405,0.8681,1.0,0.4770629405975342,"[ 0.  0.  0. ...,  0.  0.  0.]"
+33,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 10, 'criterion': 'gini', 'max_features': 'log2'}",0.66751596234137,0.32266666666666666,0.9141666666666667,0.23690651003426333,0.25,0.8819,0.3671071953010279,0.3405,0.8681,1.0,0.46930670738220215,"[ 0.  0.  0. ...,  0.  0.  0.]"
+34,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 2, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.7979952290552632,0.4226666666666667,0.9241666666666667,0.3103279490944689,0.32133333333333336,0.8961666666666667,0.4718551150269212,0.2115,0.8165,0.6211453744493393,0.39646077156066895,"[ 0.0053432   0.06031746  0.01978094 ...,  0.03341646  0.18471338
+  0.01111317]"
+35,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 5, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.8121370958627796,0.422,0.9241,0.30983847283406757,0.32766666666666666,0.8974333333333333,0.4811551639745472,0.22916666666666666,0.8235666666666667,0.6730298580518845,0.4752078056335449,"[ 0.02660068  0.0973236   0.01968771 ...,  0.0206334   0.07618591
+  0.0008285 ]"
+36,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 10, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.8033006198194271,0.426,0.9245,0.31277533039647576,0.318,0.8955,0.4669603524229075,0.22466666666666665,0.8217666666666666,0.6598139990210474,0.31401920318603516,"[ 0.01724964  0.05335628  0.01741336 ...,  0.02823018  0.05335628
+  0.00274662]"
+37,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 2, 'criterion': 'entropy', 'max_features': 'log2'}",0.7977378500172393,0.4493333333333333,0.9268333333333333,0.3299069995105237,0.3446666666666667,0.9008333333333334,0.5061184532550171,0.22416666666666665,0.8215666666666667,0.6583455702398434,0.3552250862121582,"[ 0.01027676  0.04750594  0.00877193 ...,  0.0216877   0.10366552
+  0.00297398]"
+38,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 5, 'criterion': 'entropy', 'max_features': 'log2'}",0.8061985129215026,0.41333333333333333,0.9232333333333334,0.3034752814488497,0.31733333333333336,0.8953666666666666,0.46598139990210474,0.21583333333333332,0.8182333333333334,0.6338717572197748,0.3639864921569824,"[ 0.00780403  0.125       0.04503753 ...,  0.01475459  0.03220036
+  0.00381069]"
+39,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 10, 'min_samples_split': 10, 'criterion': 'entropy', 'max_features': 'log2'}",0.8098398034559435,0.44533333333333336,0.9264333333333333,0.3269701419481155,0.332,0.8983,0.48751835535976507,0.23033333333333333,0.8240333333333333,0.6764561918746941,0.4077146053314209,"[ 0.01324503  0.06888634  0.03388823 ...,  0.00366512  0.05058366
+  0.0069712 ]"
+40,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 2, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.6022747313627628,0.30333333333333334,0.9122333333333333,0.2227116984826236,0.22466666666666665,0.8768333333333334,0.3299069995105237,0.1375,0.7869,0.40381791483113066,0.6260302066802979,"[ 0.          0.          0.03846154 ...,  0.01321586  0.          0.        ]"
+41,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 5, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.6478316352234591,0.31533333333333335,0.9134333333333333,0.23152227116984828,0.24833333333333332,0.8815666666666667,0.36465981399902103,0.1605,0.7961,0.4713656387665198,0.4984264373779297,"[ 0.          0.04225352  0.         ...,  0.          0.          0.        ]"
+42,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 10, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.6745943104604509,0.33666666666666667,0.9155666666666666,0.2471855115026921,0.263,0.8845,0.38619676945668135,0.17633333333333334,0.8024333333333333,0.51786588350465,0.5714783668518066,"[ 0.          0.01351351  0.         ...,  0.00335008  0.07042254  0.        ]"
+43,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 2, 'criterion': 'entropy', 'max_features': 'log2'}",0.6237989846339611,0.322,0.9141,0.23641703377386197,0.237,0.8793,0.34801762114537443,0.1505,0.7921,0.4419970631424376,0.5131168365478516,"[ 0.          0.05882353  0.03100775 ...,  0.          0.08510638  0.        ]"
+44,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 5, 'criterion': 'entropy', 'max_features': 'log2'}",0.626516482176819,0.32266666666666666,0.9141666666666667,0.23690651003426333,0.247,0.8813,0.36270190895741555,0.15566666666666668,0.7941666666666667,0.45717082721488006,0.5889337062835693,"[ 0.03557312  0.          0.         ...,  0.          0.07407407  0.        ]"
+45,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 20, 'min_samples_split': 10, 'criterion': 'entropy', 'max_features': 'log2'}",0.6857111922685408,0.3566666666666667,0.9175666666666666,0.26186979931473325,0.2743333333333333,0.8867666666666667,0.40283896231032795,0.1875,0.8069,0.5506607929515418,0.5523183345794678,"[ 0.0234375   0.02173913  0.         ...,  0.00887574  0.          0.        ]"
+46,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 2, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.5977458985287717,0.33866666666666667,0.9157666666666666,0.24865394028389623,0.5043333333333333,0.9327666666666666,0.7405775819872736,0.3405,0.8681,1.0,0.5177922248840332,"[ 0.  0.  0. ...,  0.  1.  0.]"
+47,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 5, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.6282915930381934,0.31466666666666665,0.9133666666666667,0.2310327949094469,0.235,0.8789,0.34508076358296624,0.3405,0.8681,1.0,0.6673698425292969,"[ 0.    0.25  0.   ...,  0.    0.    0.  ]"
+48,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 10, 'criterion': 'entropy', 'max_features': 'sqrt'}",0.6641283916347934,0.312,0.9131,0.2290748898678414,0.249,0.8817,0.3656387665198238,0.3405,0.8681,1.0,0.7026937007904053,"[ 0.          0.          0.         ...,  0.          0.22222222  0.        ]"
+49,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 2, 'criterion': 'entropy', 'max_features': 'log2'}",0.5981905625958583,0.3426666666666667,0.9161666666666667,0.25159079784630445,0.48533333333333334,0.9289666666666667,0.7126774351443955,0.3405,0.8681,1.0,0.6319506168365479,"[ 0.  0.  0. ...,  0.  0.  0.]"
+50,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 5, 'criterion': 'entropy', 'max_features': 'log2'}",0.6270128916775222,0.27666666666666667,0.9095666666666666,0.20313264806656878,0.22766666666666666,0.8774333333333333,0.3343122858541361,0.3405,0.8681,1.0,0.5757224559783936,"[ 0.  1.  0. ...,  0.  0.  0.]"
+51,DT,"DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=50,
+            max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=10, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=None, splitter='best')","{'max_depth': 50, 'min_samples_split': 10, 'criterion': 'entropy', 'max_features': 'log2'}",0.6577266647397161,0.31066666666666665,0.9129666666666667,0.22809593734703867,0.238,0.8795,0.34948604992657856,0.3405,0.8681,1.0,0.6070723533630371,"[ 0.          0.16666667  0.         ...,  0.          0.          0.        ]"
+52,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 1, 'algorithm': 'auto', 'weights': 'uniform'}",0.5156379760253803,0.11533333333333333,0.8934333333333333,0.0846793930494371,0.5023333333333333,0.9323666666666667,0.7376407244248654,0.3405,0.8681,1.0,1.9996531009674072,"[ 0.  0.  0. ...,  0.  0.  0.]"
+53,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 1, 'algorithm': 'auto', 'weights': 'distance'}",0.5156379760253803,0.11533333333333333,0.8934333333333333,0.0846793930494371,0.5023333333333333,0.9323666666666667,0.7376407244248654,0.3405,0.8681,1.0,2.3024539947509766,"[ 0.  0.  0. ...,  0.  0.  0.]"
+54,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 5, 'algorithm': 'auto', 'weights': 'uniform'}",0.5401471818365351,0.35933333333333334,0.9178333333333333,0.26382770435633873,0.22333333333333333,0.8765666666666667,0.32794909446891823,0.11166666666666666,0.7765666666666666,0.32794909446891823,2.701063394546509,"[ 0.   0.   0.  ...,  0.   0.2  0. ]"
+55,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 5, 'algorithm': 'auto', 'weights': 'distance'}",0.5415188954171649,0.106,0.8925,0.07782672540381791,0.09966666666666667,0.8518333333333333,0.14635340186000978,0.0925,0.7689,0.27165932452276065,2.9686710834503174,"[ 0.          0.          0.         ...,  0.          0.23265016  0.        ]"
+56,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 10, 'algorithm': 'auto', 'weights': 'uniform'}",0.5630106359933111,0.2633333333333333,0.9082333333333333,0.19334312285854136,0.13166666666666665,0.8582333333333333,0.19334312285854136,0.18616666666666667,0.8063666666666667,0.5467449828683308,2.753330707550049,"[ 0.   0.1  0.  ...,  0.   0.1  0. ]"
+57,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 10, 'algorithm': 'auto', 'weights': 'distance'}",0.565366615828157,0.12066666666666667,0.8939666666666667,0.08859520313264807,0.10866666666666666,0.8536333333333334,0.1595692608908468,0.09316666666666666,0.7691666666666667,0.2736172295643661,2.839024066925049,"[ 0.          0.09967102  0.         ...,  0.          0.14611658  0.        ]"
+58,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 1, 'algorithm': 'ball_tree', 'weights': 'uniform'}",0.5156379760253803,0.11533333333333333,0.8934333333333333,0.0846793930494371,0.5023333333333333,0.9323666666666667,0.7376407244248654,0.3405,0.8681,1.0,8.558151006698608,"[ 0.  0.  0. ...,  0.  0.  0.]"
+59,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 1, 'algorithm': 'ball_tree', 'weights': 'distance'}",0.5156379760253803,0.11533333333333333,0.8934333333333333,0.0846793930494371,0.5023333333333333,0.9323666666666667,0.7376407244248654,0.3405,0.8681,1.0,8.48854398727417,"[ 0.  0.  0. ...,  0.  0.  0.]"
+60,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 5, 'algorithm': 'ball_tree', 'weights': 'uniform'}",0.5401471818365351,0.35933333333333334,0.9178333333333333,0.26382770435633873,0.22333333333333333,0.8765666666666667,0.32794909446891823,0.11166666666666666,0.7765666666666666,0.32794909446891823,11.45929479598999,"[ 0.   0.   0.  ...,  0.   0.2  0. ]"
+61,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 5, 'algorithm': 'ball_tree', 'weights': 'distance'}",0.5415188954171649,0.106,0.8925,0.07782672540381791,0.09966666666666667,0.8518333333333333,0.14635340186000978,0.0925,0.7689,0.27165932452276065,8.888128519058228,"[ 0.          0.          0.         ...,  0.          0.23265016  0.        ]"
+62,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 10, 'algorithm': 'ball_tree', 'weights': 'uniform'}",0.5630106359933111,0.2633333333333333,0.9082333333333333,0.19334312285854136,0.13166666666666665,0.8582333333333333,0.19334312285854136,0.18616666666666667,0.8063666666666667,0.5467449828683308,7.937873840332031,"[ 0.   0.1  0.  ...,  0.   0.1  0. ]"
+63,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 10, 'algorithm': 'ball_tree', 'weights': 'distance'}",0.565366615828157,0.12066666666666667,0.8939666666666667,0.08859520313264807,0.10866666666666666,0.8536333333333334,0.1595692608908468,0.09316666666666666,0.7691666666666667,0.2736172295643661,9.747961282730103,"[ 0.          0.09967102  0.         ...,  0.          0.14611658  0.        ]"
+64,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 1, 'algorithm': 'kd_tree', 'weights': 'uniform'}",0.5156379760253803,0.11533333333333333,0.8934333333333333,0.0846793930494371,0.5023333333333333,0.9323666666666667,0.7376407244248654,0.3405,0.8681,1.0,1.980419635772705,"[ 0.  0.  0. ...,  0.  0.  0.]"
+65,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 1, 'algorithm': 'kd_tree', 'weights': 'distance'}",0.5156379760253803,0.11533333333333333,0.8934333333333333,0.0846793930494371,0.5023333333333333,0.9323666666666667,0.7376407244248654,0.3405,0.8681,1.0,2.1217706203460693,"[ 0.  0.  0. ...,  0.  0.  0.]"
+66,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 5, 'algorithm': 'kd_tree', 'weights': 'uniform'}",0.5401471818365351,0.35933333333333334,0.9178333333333333,0.26382770435633873,0.22333333333333333,0.8765666666666667,0.32794909446891823,0.11166666666666666,0.7765666666666666,0.32794909446891823,2.3942813873291016,"[ 0.   0.   0.  ...,  0.   0.2  0. ]"
+67,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 5, 'algorithm': 'kd_tree', 'weights': 'distance'}",0.5415188954171649,0.106,0.8925,0.07782672540381791,0.09966666666666667,0.8518333333333333,0.14635340186000978,0.0925,0.7689,0.27165932452276065,2.375502586364746,"[ 0.          0.          0.         ...,  0.          0.23265016  0.        ]"
+68,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 10, 'algorithm': 'kd_tree', 'weights': 'uniform'}",0.5630106359933111,0.2633333333333333,0.9082333333333333,0.19334312285854136,0.13166666666666665,0.8582333333333333,0.19334312285854136,0.18616666666666667,0.8063666666666667,0.5467449828683308,2.683859348297119,"[ 0.   0.1  0.  ...,  0.   0.1  0. ]"
+69,KNN,"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=10, p=2,
+           weights='distance')","{'n_neighbors': 10, 'algorithm': 'kd_tree', 'weights': 'distance'}",0.565366615828157,0.12066666666666667,0.8939666666666667,0.08859520313264807,0.10866666666666666,0.8536333333333334,0.1595692608908468,0.09316666666666666,0.7691666666666667,0.2736172295643661,3.170177936553955,"[ 0.          0.09967102  0.         ...,  0.          0.14611658  0.        ]"
+70,LR,"LogisticRegression(C=1, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)","{'penalty': 'l1', 'C': 0.001}",0.8384412930766291,0.458,0.9277,0.33627019089574156,0.341,0.9001,0.5007342143906021,0.22883333333333333,0.8234333333333334,0.6720509055310817,1.453442096710205,"[ 0.02950695  0.07709243  0.04245778 ...,  0.02596667  0.08100055
+  0.02217971]"
+71,LR,"LogisticRegression(C=1, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)","{'penalty': 'l2', 'C': 0.001}",0.64964030927084,0.12,0.8939,0.0881057268722467,0.11966666666666667,0.8558333333333333,0.17572197748409202,0.11366666666666667,0.7773666666666667,0.3338228095937347,0.7413506507873535,"[ 0.04819559  0.07124161  0.07518207 ...,  0.03444336  0.06957145
+  0.03967931]"
+72,LR,"LogisticRegression(C=1, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)","{'penalty': 'l1', 'C': 0.1}",0.8456650729143147,0.47733333333333333,0.9296333333333333,0.3504650024473813,0.35233333333333333,0.9023666666666667,0.5173764072442486,0.23183333333333334,0.8246333333333333,0.6808614782183064,12.797464609146118,"[ 0.02105678  0.09557924  0.02846009 ...,  0.0197818   0.10889498
+  0.00992969]"
+73,LR,"LogisticRegression(C=1, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)","{'penalty': 'l2', 'C': 0.1}",0.6496381557643827,0.12,0.8939,0.0881057268722467,0.11966666666666667,0.8558333333333333,0.17572197748409202,0.11366666666666667,0.7773666666666667,0.3338228095937347,0.7496609687805176,"[ 0.04818858  0.07125414  0.07517744 ...,  0.03442438  0.06958646
+  0.03965947]"
+74,LR,"LogisticRegression(C=1, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)","{'penalty': 'l1', 'C': 1}",0.8456498933200173,0.478,0.9297,0.3509544787077827,0.3516666666666667,0.9022333333333333,0.5163974547234459,0.23183333333333334,0.8246333333333333,0.6808614782183064,63.48671531677246,"[ 0.02124055  0.09459032  0.02798088 ...,  0.01994586  0.10995831
+  0.00968819]"
+75,LR,"LogisticRegression(C=1, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)","{'penalty': 'l2', 'C': 1}",0.6570794835247213,0.128,0.8947,0.09397944199706314,0.12633333333333333,0.8571666666666666,0.18551150269211944,0.11766666666666667,0.7789666666666667,0.3455702398433676,0.9271495342254639,"[ 0.04810595  0.07091675  0.07489457 ...,  0.03435005  0.06940888
+  0.03937364]"
+76,NB,GaussianNB(priors=None),{},0.8401264644040876,0.47733333333333333,0.9296333333333333,0.3504650024473813,0.35133333333333333,0.9021666666666667,0.5159079784630446,0.23516666666666666,0.8259666666666666,0.6906510034263338,0.1465744972229004,"[ 0.00035844  0.00497798  0.00115979 ...,  0.00029469  0.00622251
+  0.0003272 ]"
