@@ -45,7 +45,7 @@ def cap_extreme(df):
 
 def set_ceiling(x, ceiling):
     '''
-    Helper funciton for cap_extreme
+    Helper function for cap_extreme
     '''
     if x > ceiling:
         return ceiling

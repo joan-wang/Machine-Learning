@@ -67,8 +67,7 @@ CLASSIFIERS = {'RF': RandomForestClassifier(n_estimators=50, n_jobs=-1),
             }
 
 # list of classifier models to run
-TO_RUN = ['RF','DT','KNN', 'ET', 'AB', 'GB', 'LR', 'NB']
-
+TO_RUN = ['GB','RF','DT','KNN','LR','NB']
 
 # all grids to potentially loop through
 LARGE_GRID = { 
@@ -86,15 +85,15 @@ LARGE_GRID = {
 
 SMALL_GRID = { 
 'RF':{'n_estimators': [10,100], 'max_depth': [5,50], 'max_features': ['sqrt','log2'],'min_samples_split': [2,10]},
-'LR': { 'penalty': ['l1','l2'], 'C': [0.00001,0.001,0.1,1,10]},
+'LR': { 'penalty': ['l1','l2'], 'C': [0.001,0.1,1]},
 'SGD': { 'loss': ['hinge','log','perceptron'], 'penalty': ['l2','l1','elasticnet']},
 'ET': { 'n_estimators': [10,100], 'criterion' : ['gini', 'entropy'] ,'max_depth': [5,50], 'max_features': ['sqrt','log2'],'min_samples_split': [2,10]},
-'AB': { 'algorithm': ['SAMME', 'SAMME.R'], 'n_estimators': [1,10,100,1000,10000]},
+'AB': { 'algorithm': ['SAMME', 'SAMME.R'], 'n_estimators': [10,100,1000]},
 'GB': {'n_estimators': [10,100], 'learning_rate' : [0.001,0.1,0.5],'subsample' : [0.1,0.5,1.0], 'max_depth': [5,50]},
 'NB' : {},
-'DT': {'criterion': ['gini', 'entropy'], 'max_depth': [1,5,10,20,50,100], 'max_features': ['sqrt','log2'],'min_samples_split': [2,5,10]},
+'DT': {'criterion': ['gini', 'entropy'], 'max_depth': [10,20,50], 'max_features': ['sqrt','log2'],'min_samples_split': [2,5,10]},
 'SVM' :{'C' :[0.00001,0.0001,0.001,0.01,0.1,1,10],'kernel':['linear']},
-'KNN' :{'n_neighbors': [1,5,10,25,50,100],'weights': ['uniform','distance'],'algorithm': ['auto','ball_tree','kd_tree']}
+'KNN' :{'n_neighbors': [1,5,10],'weights': ['uniform','distance'],'algorithm': ['auto','ball_tree','kd_tree']}
        }
 
 TEST_GRID = { 
@@ -111,5 +110,5 @@ TEST_GRID = {
        }
 
 # which grid size to use
-WHICH_GRID = TEST_GRID
+WHICH_GRID = SMALL_GRID
 

@@ -9,16 +9,6 @@ from explore import *
 from sklearn.cross_validation import train_test_split
 
 
-
-'''
-Notes and to dos
-- make labeled graphs
-- Categorical variables not ok for model? "could not convert string to float"
-- need to fix feature selection config file; currently hard coded
-- where to display results? store more in results to graph and evaluate?
-
-'''
-
 def pipeline(df):
     explore(df)
     df = clean(df)
@@ -31,6 +21,7 @@ def pipeline(df):
     X_train = feature_eng(X_train)
     X_test = feature_eng(X_test)
     results = classifiers_loop(X_train, X_test, y_train, y_test)
+    results.to_csv('results.csv')
     return results, y_test
 
 if __name__=="__main__":
@@ -42,4 +33,4 @@ if __name__=="__main__":
   
     df = pd.read_csv(sys.argv[1], index_col=INDEX_COL, sep=SEPERATOR)
     results, y_test = pipeline(df)
-    results.to_csv('results.csv')
+    
